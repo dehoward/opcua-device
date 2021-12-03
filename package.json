@@ -1,0 +1,16 @@
+{
+  "name": "opcua",
+  "version": "1.0.0",
+  "description": "Simulate a device sending OPCUA data",
+  "main": "opcua.js",
+  "scripts": {
+    "start": "tsc && node dist/opcua.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device": "^1.13.0",
+    "azure-iot-device-mqtt": "^1.12.0",
+    "azure-iot-provisioning-device-mqtt": "^1.7.0",
+    "azure-iot-security-symmetric-key": "^1.7.0"
+  }
+}
