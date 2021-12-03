@@ -15,7 +15,7 @@
 - `startTelemetry`
     
     payload: 
-    ```json
+    ```jsonc
     {
         "interval": 3000 // set the interval to 3s
     }
